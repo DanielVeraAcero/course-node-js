@@ -1,5 +1,4 @@
 const fs = require("node:fs");
-const { text } = require("stream/consumers");
 
 console.log("Reading first file...");
 fs.readFile("./file.txt", "utf-8", (err, text) => {
